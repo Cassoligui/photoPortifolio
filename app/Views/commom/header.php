@@ -32,7 +32,7 @@
         </nav>
     </div>
 
-    <div class="container about">
+    <div class="container about" style="padding-top:15px;">
         <div class="about-content">
             <div class="about-img flex">
                 <img src="images/about-img.jpg" alt="photographer img">
