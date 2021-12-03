@@ -1,7 +1,7 @@
 <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style.css'); ?>">
-
+<title>Photography Site</title>
 <style>
     .header {
         min-height: 100vh;
@@ -24,9 +24,9 @@
         <!-- navigation menu -->
         <nav class="top-nav">
             <ul>
-                <li><a href=<?php echo base_url('')?>>Home</a></li>
-                <li><a href=<?php echo base_url('portfolio')?>>Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href=<?php echo base_url('') ?>>Home</a></li>
+                <li><a href=<?php echo base_url('portfolio') ?>>Portfolio</a></li>
+                <li><a href=<?php echo base_url('contato') ?>>Contact</a></li>
             </ul>
         </nav>
     </div>
@@ -35,7 +35,7 @@
 
         <div class="about-content">
             <div class="about-img flex">
-                <img src = <?= base_url('images/about-img.jpg') ?> alt="photographer img">
+                <img src=<?= base_url('images/about-img.jpg') ?> alt="photographer img">
             </div>
             <h2>Sarah Doe</h2>
             <h3>Photographer</h3>
