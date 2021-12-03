@@ -11,7 +11,8 @@
 </head>
 
 <body>
-	<?php echo view('commom/header'); ?>
+
+<?php echo view('commom/header'); ?>
 </body>
 <!-- main -->
 <section class="section-two">

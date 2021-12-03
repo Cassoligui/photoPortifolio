@@ -1,4 +1,3 @@
-
 <script src="https://kit.fontawesome.com/dbed6b6114.js" crossorigin="anonymous"></script>
 
 <link rel="stylesheet" type="text/css" href="<?php echo base_url('assets/style.css'); ?>">
@@ -15,7 +14,7 @@
 <header class="header">
     <div class="nav-section">
         <div class="brand-and-navBtn">
-            <span class="brand-name">
+            <span class="brand-name" style="font-weight: bold;">
                 SARAHLAB
             </span>
             <span class="navBtn flex">
@@ -25,23 +24,28 @@
         <!-- navigation menu -->
         <nav class="top-nav">
             <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="gallery.html">Portfolio</a></li>
+                <li><a href=<?php echo base_url('')?>>Home</a></li>
+                <li><a href=<?php echo base_url('portfolio')?>>Portfolio</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </div>
 
     <div class="container about" style="padding-top:15px;">
+
         <div class="about-content">
             <div class="about-img flex">
-                <img src="images/about-img.jpg" alt="photographer img">
+                <img src = <?= base_url('images/about-img.jpg') ?> alt="photographer img">
             </div>
             <h2>Sarah Doe</h2>
             <h3>Photographer</h3>
         </div>
 
         <div class="social-icons">
+            <br>
+            <br>
+            <br>
+            <br>
             <ul>
                 <li>
                     <a href="#"><i class="fab fa-facebook"></i></a>
