@@ -25,8 +25,8 @@
         <nav class="top-nav">
             <ul>
                 <li><a href=<?php echo base_url('') ?>>Home</a></li>
-                <li><a href=<?php echo base_url('portfolio') ?>>Portfolio</a></li>
-                <li><a href=<?php echo base_url('contato') ?>>Contact</a></li>
+                <li><a href=<?php echo base_url('#gallery') ?>>Gallery</a></li>
+                <li><a href=<?php echo base_url('#contact') ?>>Contact</a></li>
             </ul>
         </nav>
     </div>
