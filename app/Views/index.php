@@ -172,7 +172,7 @@
 </section>
 <!-- CONTACT -->
 
-<footer><?php echo view('commom/footer'); ?></footer>
+<footer id="about"><?php echo view('commom/footer'); ?></footer>
 
 </html>
 
